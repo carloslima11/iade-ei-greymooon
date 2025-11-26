@@ -2,8 +2,9 @@ package com.gamestore.model
 import java.io.Serializable
 
 data class ItemCompravel(
-    val id:Int,
-    val nome:String,
-    val preco:Double,
-    val imagem:Int,
+    val iditens:Int,
+    val nomeitens:String,
+    //val descricaoitens:String,
+    val precoitens:Double,
+    val imagemitens:Int,
 ): Serializable
