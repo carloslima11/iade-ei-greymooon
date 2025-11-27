@@ -44,6 +44,7 @@ fun GameDetailScreen(game: Game) {
                 ) {
                     Column {
                         Text(item.nomeitens)
+                        Text(item.descricaoitens)
                         Text(item.precoitens.toString())
                     }
                 }
