@@ -19,14 +19,6 @@ class MainActivity : ComponentActivity() {
             GameStoreTheme {
                 //itens Solo Leveling
                 val SoloLevelingItem1 = ItemCompravel(
-                    iditens = 1,
-                    nomeitens = "Demon King Sword",
-                    descricaoitens = "Forjada nas profundezas do Abismo, esta espada pertenceu a um tirano que tentou conquistar o mundo. Ela sussurra ambições sombrias ao seu portador, trocando sanidade por poder bruto",
-                    precoitens = 29.99,
-                    imagemitens = com.gamestore.R.drawable.demonking_sword
-                )
-
-                val SoloLevelingItem2 = ItemCompravel(
                     iditens = 2,
                     nomeitens = "Knights Killer",
                     descricaoitens = "Desprezada pela Guarda Real, esta arma rudimentar foi inventada por rebeldes para nivelar o jogo contra cavaleiros blindados. Ela encontra brechas até no aço mais resistente.",
@@ -34,7 +26,7 @@ class MainActivity : ComponentActivity() {
                     imagemitens = com.gamestore.R.drawable.knights_killer
                 )
 
-                val SoloLevelingItem3 = ItemCompravel(
+                val SoloLevelingItem2 = ItemCompravel(
                     iditens = 3,
                     nomeitens = "The Sword of Light",
                     descricaoitens = "Dizem ser um presente dos céus para o Primeiro Herói. A lâmina nunca perde o fio e irradia um calor que bane as sombras e aterroriza os mortos-vivos.",
@@ -42,7 +34,7 @@ class MainActivity : ComponentActivity() {
                     imagemitens = com.gamestore.R.drawable.sword_of_light
                 )
 
-                val SoloLevelingItem4 = ItemCompravel(
+                val SoloLevelingItem3 = ItemCompravel(
                     iditens = 4,
                     nomeitens = "Fénix Bow",
                     descricaoitens = "Encordoado com a veia de um pássaro de fogo mítico e esculpido em madeira de freixo chamuscada. Não requer pederneira; o espírito de luta do usuário alimenta as chamas.",
@@ -50,7 +42,7 @@ class MainActivity : ComponentActivity() {
                     imagemitens = com.gamestore.R.drawable.fenix_bow
                 )
 
-                val SoloLevelingItem5 = ItemCompravel(
+                val SoloLevelingItem4 = ItemCompravel(
                     iditens = 5,
                     nomeitens = "Heavenly Spear",
                     descricaoitens = "Caiu dos céus durante a Guerra dos Deuses. É leve como uma pena para os justos, mas impossivelmente pesada para os perversos.",
@@ -58,7 +50,7 @@ class MainActivity : ComponentActivity() {
                     imagemitens = com.gamestore.R.drawable.heavenly_spear
                 )
 
-                val SoloLevelingItem6 = ItemCompravel(
+                val SoloLevelingItem5 = ItemCompravel(
                     iditens = 6,
                     nomeitens = "Lizard Glave",
                     descricaoitens = "Criada pelas tribos reptilianas do Grande Pântano. A lâmina é feita da presa afiada de um dragão do pântano e é permanentemente revestida com uma toxina natural paralisante.",
@@ -66,7 +58,7 @@ class MainActivity : ComponentActivity() {
                     imagemitens = com.gamestore.R.drawable.lizard_glave
                 )
 
-                val SoloLevelingItem7 = ItemCompravel(
+                val SoloLevelingItem6 = ItemCompravel(
                     iditens = 7,
                     nomeitens = "Zeke's Fragment",
                     descricaoitens = "Zeke foi o maior lanceiro da história até que sua arma se partiu contra uma montanha. Este fragmento, embora quebrado, ainda retém a força fantasma de seu mestre original.",
@@ -185,7 +177,7 @@ class MainActivity : ComponentActivity() {
                     descricaogame = "Solo Leveling, o webtoon com 14,3 bilhões de visualizações em todo o mundo, agora é um jogo de RPG de ação! Ajude nosso herói a crescer a partir de seu humilde começo E-Rank.",
                     precogame = 59.99,
                     imagegame = com.gamestore.R.drawable.solo_leveling,
-                    itens = listOf(SoloLevelingItem1, SoloLevelingItem2, SoloLevelingItem3, SoloLevelingItem4, SoloLevelingItem5, SoloLevelingItem6, SoloLevelingItem7)
+                    itens = listOf(SoloLevelingItem1, SoloLevelingItem2, SoloLevelingItem3, SoloLevelingItem4, SoloLevelingItem5)
                 )
 
                 //card do segundo jogo

@@ -1,22 +1,30 @@
 package com.gamestore.view.screens
 
+import android.R.attr.title
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
 import com.gamestore.model.Game
 import androidx.compose.foundation.lazy.items
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.gamestore.view.components.GameCard
+import org.w3c.dom.Text
 
 @Composable
 fun MainScreen(
     games: List<Game>,
     onGameClick: (Game) -> Unit
 ) {
+    Row (){
+    }
     LazyColumn(
         contentPadding = PaddingValues(horizontal = 0.dp, vertical = 130.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
