@@ -1,7 +1,5 @@
 package com.gamestore.view.screens
 
-import android.R
-import android.R.attr.title
 import android.content.Intent
 import android.widget.Toast
 import androidx.compose.foundation.Image
@@ -31,8 +29,6 @@ import androidx.compose.ui.unit.dp
 import com.gamestore.model.Game
 import com.gamestore.model.ItemCompravel
 import androidx.compose.foundation.layout.*
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.graphics.Color
@@ -78,7 +74,7 @@ fun GameDetailScreen(game: Game,onBackClick: () -> Unit = {}) {
                 modifier = Modifier.size(120.dp).clip(RoundedCornerShape(10.dp))
             )
             Column(modifier = Modifier.padding(start = 10.dp)) {
-                Text(text = game.descricaogame, maxLines = 4)
+                Text(text = game.descricaogame, maxLines = 5)
             }
         }
 
