@@ -2,12 +2,8 @@ package com.gamestore.controller
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
-import androidx.activity.R
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import com.gamestore.model.Game
 import com.gamestore.model.ItemCompravel
 import com.gamestore.ui.theme.GameStoreTheme
@@ -204,9 +200,9 @@ class MainActivity : ComponentActivity() {
 
                 //card do terceiro jogo
                 val GOW2 = Game(
-                    idgame = 1,
+                    idgame = 3,
                     nomegame = "God Of War II",
-                    descricaogame = "Sentado em cima de seu trono no Olimpo, Kratos, o guerreiro mortal uma vez tornou-se uma ameaça muito pior do que seu antecessor, Ares, já havia sido. Kratos é um Deus cruel, cuja ira ataca por qualquer um que cruza seu caminho ou o caminho de seu amado Esparta.",
+                    descricaogame = "Sentado em cima de seu trono no Olimpo, Kratos, o guerreiro mortal uma vez tornou-se uma ameaça muito pior do que seu antecessor, Ares, já havia sido.",
                     precogame = 79.99,
                     imagegame = com.gamestore.R.drawable.gow_cover,
                     itens = listOf(GOW2Item1, GOW2Item2, GOW2Item3, GOW2Item4, GOW2Item5)
