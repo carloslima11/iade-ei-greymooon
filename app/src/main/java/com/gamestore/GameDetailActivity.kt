@@ -304,3 +304,122 @@ fun GameDetailScreenPreview() {
         )
     }
 }
+
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun GameDetailScreenPreview1() {
+    // itens solo leveling
+    val SoloLevelingItem1 = ItemCompravel(
+        iditens = 1,
+        nomeitens = "Knights Killer",
+        precoitens = 19.99,
+        imagemitens = R.drawable.knights_killer,
+        descricaoitens = "Desprezada pela Guarda Real, esta arma rudimentar foi inventada por rebeldes."
+    )
+    val SoloLevelingItem2 = ItemCompravel(
+        iditens = 2,
+        nomeitens = "The Sword of Light",
+        precoitens = 29.99,
+        imagemitens = R.drawable.sword_of_light,
+        descricaoitens = "Dizem ser um presente dos céus para o Primeiro Herói."
+    )
+    val SoloLevelingItem3 = ItemCompravel(
+        iditens = 3,
+        nomeitens = "Fénix Bow",
+        precoitens = 21.99,
+        imagemitens = R.drawable.fenix_bow,
+        descricaoitens = "Encordoado com a veia de um pássaro de fogo mítico."
+    )
+    val SoloLevelingItem4 = ItemCompravel(
+        iditens = 4,
+        nomeitens = "Heavenly Spear",
+        precoitens = 27.99,
+        imagemitens = R.drawable.heavenly_spear,
+        descricaoitens = "Caiu dos céus durante a Guerra dos Deuses."
+    )
+    val SoloLevelingItem5 = ItemCompravel(
+        iditens = 5,
+        nomeitens = "Lizard Glave",
+        precoitens = 38.99,
+        imagemitens = R.drawable.lizard_glave,
+        descricaoitens = "Criada pelas tribos reptilianas do Grande Pântano."
+    )
+
+    // jogo 1 solo leveling
+    val SoloLeveling = Game(
+        idgame = 1,
+        nomegame = "Solo Leveling",
+        descricaogame = "Solo Leveling, o webtoon com 14,3 bilhões de visualizações!",
+        precogame = 59.99,
+        imagegame = R.drawable.solo_leveling,
+        itens = listOf(SoloLevelingItem1, SoloLevelingItem2, SoloLevelingItem3, SoloLevelingItem4, SoloLevelingItem5)
+    )
+
+    // mostrar o ecrã
+    GameStoreTheme {
+        GameDetailScreen(
+            game = SoloLeveling,
+            onBackClick = {}
+        )
+    }
+}
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun GameDetailScreenPreview3() {
+    // Itens Hades II
+    val Hades2item1 = ItemCompravel(
+        iditens = 6,
+        nomeitens = "Nectar",
+        precoitens = 14.99,
+        imagemitens = R.drawable.nectar,
+        descricaoitens = "Uma garrafa de ambrosia líquida destilada nos pomares do Elísio."
+    )
+    val Hades2Item2 = ItemCompravel(
+        iditens = 7,
+        nomeitens = "Hades II OST",
+        precoitens = 14.99,
+        imagemitens = R.drawable.hadessoundtrack,
+        descricaoitens = "Uma coleção de hinos compostos para a Princesa do Submundo."
+    )
+    val Hades2Item3 = ItemCompravel(
+        iditens = 8,
+        nomeitens = "Hades Bundle",
+        precoitens = 65.68,
+        imagemitens = R.drawable.bundle,
+        descricaoitens = "Testemunhe a jornada de Zagreus e Melinoë."
+    )
+    val Hades2Item4 = ItemCompravel(
+        iditens = 9,
+        nomeitens = "Druida's Staff",
+        precoitens = 27.68,
+        imagemitens = R.drawable.druids_staff,
+        descricaoitens = "Colhido da Árvore Mãe sem o uso de ferramentas de ferro."
+    )
+    val Hades2Item5 = ItemCompravel(
+        iditens = 10,
+        nomeitens = "Infernal Arms",
+        precoitens = 35.68,
+        imagemitens = R.drawable.infernal_arms,
+        descricaoitens = "Escurecido pelas cinzas de mil batalhas demoníacas."
+    )
+
+    // jogo 2 hades 2
+    val Hades2 = Game(
+        idgame = 2,
+        nomegame = "Hades II",
+        descricaogame = "Lute além do Submundo usando feitiçaria negra.",
+        precogame = 29.99,
+        imagegame = R.drawable.hades2,
+        itens = listOf(Hades2item1, Hades2Item2, Hades2Item3, Hades2Item4, Hades2Item5)
+    )
+
+    // mostrar o ecrã
+    GameStoreTheme {
+        GameDetailScreen(
+            game = Hades2,
+            onBackClick = {}
+        )
+    }
+}
